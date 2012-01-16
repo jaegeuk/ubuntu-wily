@@ -51,7 +51,7 @@ Module.symvers
 #
 # Debian directory (make deb-pkg)
 #
-/debian/
+#/debian/
 
 #
 # tar directory (make tar*-pkg)
