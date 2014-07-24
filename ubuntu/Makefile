@@ -12,6 +12,7 @@
 ##
 ##
 ##
+obj-$(CONFIG_AUFS_FS)         += aufs/
 ##
 ##
 ##
