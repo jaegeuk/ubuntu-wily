@@ -6,6 +6,10 @@ linux (4.0.2-1.1) UNRELEASED; urgency=low
 
   [ Upstream Kernel Changes ]
 
+  * rebase to v4.0.3
+
+  [ Upstream Kernel Changes ]
+
   * rebase to v4.0.2
     - LP: #1447909
     - LP: #1446517
