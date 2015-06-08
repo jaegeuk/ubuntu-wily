@@ -4,6 +4,13 @@ linux (4.0.0-1.1) UNRELEASED; urgency=low
   CHANGELOG: Use the printchanges target to see the curent changes.
   CHANGELOG: Use the insertchanges target to create the final log.
 
+  [ Upstream Kernel Changes ]
+
+  * rebase to v4.0.5
+    - LP: #1429756
+    - LP: #1452175
+    - LP: #1454656
+
   [ Leann Ogasawara ]
 
   * Revert "md/raid0: fix bug with chunksize not a power of 2."
