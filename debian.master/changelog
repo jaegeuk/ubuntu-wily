@@ -1,3 +1,23 @@
+linux (4.0.0-1.2) wily; urgency=low
+
+  [ Andy Whitcroft ]
+
+  * SAUCE: overlay: add backwards compatible overlayfs format support V3
+    - LP: #1395877, #1410480
+  * [Config] enable CONFIG_OVERLAY_FS_V1
+
+  [ Tai Nguyen ]
+
+  * SAUCE: power: reset: Add syscon reboot device node for APM X-Gene platform
+    - LP: #1463211
+
+  [ Tim Gardner ]
+
+  * [Config] CONFIG_HIBERNATION=n for ppc64el
+    - LP: #1463836
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Fri, 12 Jun 2015 06:11:53 -0600
+
 linux (4.0.0-1.1) wily; urgency=low
 
   [ Leann Ogasawara ]
