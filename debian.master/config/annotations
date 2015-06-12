@@ -3447,7 +3447,7 @@ CONFIG_PM_WAKELOCKS_GC				D
 CONFIG_PM_TRACE_RTC				y
 CONFIG_SUSPEND                                  p policy<{'amd64': 'y', 'arm64': 'y', 'armhf': 'y', 'i386': 'y', 'powerpc-powerpc64-smp': 'y', 'powerpc-powerpc-smp': 'y', 'ppc64el': 'y'}>
 CONFIG_SUSPEND_FREEZER                          p policy<{'amd64': 'y', 'arm64': 'y', 'armhf': 'y', 'i386': 'y', 'powerpc-powerpc64-smp': 'y', 'powerpc-powerpc-smp': 'y', 'ppc64el': 'y'}>
-CONFIG_HIBERNATION                              p policy<{'amd64': 'y', 'armhf': 'y', 'i386': 'y', 'powerpc-powerpc64-emb': 'n', 'powerpc-powerpc64-smp': 'y', 'powerpc-powerpc-e500mc': 'y', 'powerpc-powerpc-smp': 'y', 'ppc64el': 'y'}>
+CONFIG_HIBERNATION                              p policy<{'amd64': 'y', 'armhf': 'y', 'i386': 'y', 'powerpc-powerpc64-emb': 'n', 'powerpc-powerpc64-smp': 'y', 'powerpc-powerpc-e500mc': 'y', 'powerpc-powerpc-smp': 'y', 'ppc64el': 'n'}>
 CONFIG_PM_STD_PARTITION                         p policy<{'amd64': '""', 'armhf': '""', 'i386': '""', 'powerpc-powerpc64-smp': '""', 'powerpc-powerpc-e500mc': '""', 'powerpc-powerpc-smp': '""', 'ppc64el': '""'}>
 CONFIG_PM_AUTOSLEEP                             p policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'i386': 'n', 'powerpc-powerpc64-smp': 'n', 'powerpc-powerpc-e500mc': 'n', 'powerpc-powerpc-smp': 'n', 'ppc64el': 'n'}>
 CONFIG_PM_WAKELOCKS                             p policy<{'amd64': 'y', 'arm64': 'y', 'armhf': 'y', 'i386': 'y', 'powerpc-powerpc64-smp': 'y', 'powerpc-powerpc-e500mc': 'y', 'powerpc-powerpc-smp': 'y', 'ppc64el': 'y'}>
