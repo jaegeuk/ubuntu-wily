@@ -18,7 +18,6 @@ set +pattern '(^|_)DEBUG(_|$)' ?type tristate	= n flag<DEBUG>
 #  exceptions
 CONFIG_DEBUG_FS					y note<required debug option>
 CONFIG_DEBUG_KERNEL				y note<required debug option>
-CONFIG_DEBUG_RODATA				y 
 CONFIG_SLUB_DEBUG				y
 CONFIG_SCHED_DEBUG				y
 
@@ -2917,7 +2916,7 @@ CONFIG_PANIC_TIMEOUT				0
 CONFIG_STACKTRACE				y
 CONFIG_PROVIDE_OHCI1394_DMA_INIT		n
 CONFIG_STRICT_DEVMEM				y mark<ENFORCED>
-CONFIG_DEBUG_RODATA				p mark<ENFORCED> policy<{'amd64': 'y', 'i386': 'y', 'armhf': 'y'}>
+CONFIG_DEBUG_RODATA				p mark<ENFORCED> policy<{'amd64': 'y', 'i386': 'y', 'arm64': 'y'}>
 CONFIG_DEBUG_SET_MODULE_RONX			p mark<ENFORCED> policy<{'powerpc': '-', 'ppc64el': '-', '*': 'y'}>
 CONFIG_EARLY_PRINTK				y
 CONFIG_DEBUG_RODATA				p policy<{'amd64': 'y', 'i386': 'y', 'armhf': 'y'}>
