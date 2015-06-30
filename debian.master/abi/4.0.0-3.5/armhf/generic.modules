@@ -202,6 +202,7 @@ ah4
 ah6
 ahci
 ahci_mvebu
+ahci_tegra
 aic79xx
 aic7xxx
 aic94xx
@@ -903,6 +904,7 @@ egalax_ts
 ehci-msm
 ehci-mxc
 ehci-omap
+ehci-tegra
 ehset
 elan_i2c
 elants_i2c
@@ -1362,6 +1364,7 @@ hmc5843_i2c
 hmc5843_spi
 hmc6352
 hopper
+host1x
 hostap
 hostap_pci
 hostap_plx
@@ -1438,6 +1441,7 @@ i2c-slave-eeprom
 i2c-smbus
 i2c-stub
 i2c-taos-evm
+i2c-tegra
 i2c-tiny-usb
 i2c-versatile
 i2c-via
@@ -2397,6 +2401,11 @@ ntfs
 n_tracerouter
 n_tracesink
 null_blk
+nvec
+nvec_kbd
+nvec_paz00
+nvec_power
+nvec_ps2
 nvidiafb
 nvme
 nvram
@@ -2617,6 +2626,7 @@ phy-rcar-usb
 physmap
 physmap_of
 phy-tahvo
+phy-tegra-usb
 phy-ti-pipe3
 phy-twl4030-usb
 phy-twl6030-usb
@@ -2694,6 +2704,7 @@ pwm-pca9685
 pwm-regulator
 pwm-renesas-tpu
 pwm-samsung
+pwm-tegra
 pwm-tiecap
 pwm-tiehrpwm
 pwm-twl
@@ -3028,6 +3039,7 @@ rtc-s35390a
 rtc-s5m
 rtc-snvs
 rtc-stk17ta8
+rtc-tegra
 rtc-tps6586x
 rtc-tps65910
 rtc-tps80031
@@ -3187,12 +3199,14 @@ sdhci-msm
 sdhci-of-arasan
 sdhci-pci
 sdhci-s3c
+sdhci-tegra
 sdio_uart
 seed
 sensorhub
 seqiv
 ser_gigaset
 serial2002
+serial-tegra
 serio_raw
 sermouse
 serpent_generic
@@ -3331,6 +3345,7 @@ snd-hda-codec-si3054
 snd-hda-codec-via
 snd-hda-controller
 snd-hda-intel
+snd-hda-tegra
 snd-hdsp
 snd-hdspm
 snd-hrtimer
@@ -3389,6 +3404,7 @@ snd-soc-ak4554
 snd-soc-ak4642
 snd-soc-ak5386
 snd-soc-alc5623
+snd-soc-alc5632
 snd-soc-armada-370-db
 snd-soc-arndale-rt5631
 snd-soc-atmel-pcm
@@ -3444,7 +3460,11 @@ snd-soc-pcm512x
 snd-soc-pcm512x-i2c
 snd-soc-pcm512x-spi
 snd-soc-rcar
+snd-soc-rl6231
 snd-soc-rt5631
+snd-soc-rt5640
+snd-soc-rt5677
+snd-soc-rt5677-spi
 snd-soc-rx51
 snd-soc-s3c-dma
 snd-soc-samsung-spdif
@@ -3466,6 +3486,22 @@ snd-soc-sta32x
 snd-soc-sta350
 snd-soc-tas2552
 snd-soc-tas5086
+snd-soc-tegra20-ac97
+snd-soc-tegra20-das
+snd-soc-tegra20-i2s
+snd-soc-tegra20-spdif
+snd-soc-tegra30-ahub
+snd-soc-tegra30-i2s
+snd-soc-tegra-alc5632
+snd-soc-tegra-max98090
+snd-soc-tegra-pcm
+snd-soc-tegra-rt5640
+snd-soc-tegra-rt5677
+snd-soc-tegra-trimslice
+snd-soc-tegra-utils
+snd-soc-tegra-wm8753
+snd-soc-tegra-wm8903
+snd-soc-tegra-wm9712
 snd-soc-tfa9879
 snd-soc-tlv320aic23
 snd-soc-tlv320aic23-i2c
@@ -3492,6 +3528,7 @@ snd-soc-wm8903
 snd-soc-wm8962
 snd-soc-wm8978
 snd-soc-wm8994
+snd-soc-wm9712
 snd-soc-wm-hubs
 snd-soc-xtfpga-i2s
 snd-sonicvibes
@@ -3575,6 +3612,9 @@ spi-s3c64xx
 spi-sc18is602
 spi-sh-hspi
 spi-sh-msiof
+spi-tegra114
+spi-tegra20-sflash
+spi-tegra20-slink
 spi-ti-qspi
 spi-tle62x0
 spi-xcomm
@@ -3735,6 +3775,10 @@ team_mode_loadbalance
 team_mode_random
 team_mode_roundrobin
 tef6862
+tegra-devfreq
+tegra-drm
+tegra-kbc
+tegra_wdt
 tehuti
 tekram-sir
 test_bpf
