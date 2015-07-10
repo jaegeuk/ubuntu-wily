@@ -197,6 +197,10 @@ static inline unsigned long current_stack_pointer(void)
 
 #else /* !__ASSEMBLY__ */
 
+#ifdef CONFIG_X86_64
+# define cpu_current_top_of_stack (cpu_tss + TSS_sp0)
+#endif
+
 /* Load thread_info address into "reg" */
 #define GET_THREAD_INFO(reg) \
 	_ASM_MOV PER_CPU_VAR(kernel_stack),reg ; \
