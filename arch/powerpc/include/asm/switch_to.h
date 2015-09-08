@@ -29,7 +29,6 @@ static inline void save_early_sprs(struct thread_struct *prev) {}
 
 extern void enable_kernel_fp(void);
 extern void enable_kernel_altivec(void);
-extern void enable_kernel_vsx(void);
 extern int emulate_altivec(struct pt_regs *);
 extern void __giveup_vsx(struct task_struct *);
 extern void giveup_vsx(struct task_struct *);
@@ -69,8 +68,12 @@ static inline void giveup_altivec(struct task_struct *t)
 
 #ifdef CONFIG_VSX
 extern void flush_vsx_to_thread(struct task_struct *);
+extern void enable_kernel_vsx(void);
 #else
 static inline void flush_vsx_to_thread(struct task_struct *t)
+{
+}
+static inline void enable_kernel_vsx(void)
 {
 }
 #endif
