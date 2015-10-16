@@ -743,5 +743,3 @@ ifeq ($(RPI_DT_OVERLAYS),y)
 endif
 
 subdir-y  += overlays
-
-dts-dirs += overlays
