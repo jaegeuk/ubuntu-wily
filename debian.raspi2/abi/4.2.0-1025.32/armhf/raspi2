@@ -4707,6 +4707,7 @@ EXPORT_SYMBOL vmlinux 0x1c105734	tty_port_tty_get
 EXPORT_SYMBOL vmlinux 0x1c1891ae	adjust_managed_page_count
 EXPORT_SYMBOL vmlinux 0x1c231c25	phy_register_fixup_for_uid
 EXPORT_SYMBOL vmlinux 0x1c2cd9ec	vm_mmap
+EXPORT_SYMBOL vmlinux 0x1c493932	path_nosuid
 EXPORT_SYMBOL vmlinux 0x1c6664a2	nonseekable_open
 EXPORT_SYMBOL vmlinux 0x1c71e39a	csum_and_copy_from_iter
 EXPORT_SYMBOL vmlinux 0x1c7f16f2	security_path_link
@@ -4805,6 +4806,7 @@ EXPORT_SYMBOL vmlinux 0x21504d7f	sock_no_accept
 EXPORT_SYMBOL vmlinux 0x2163befc	bdi_register_dev
 EXPORT_SYMBOL vmlinux 0x21676e7d	kernel_param_lock
 EXPORT_SYMBOL vmlinux 0x216d759a	mmiocpy
+EXPORT_SYMBOL vmlinux 0x2175e1ae	clone_cred
 EXPORT_SYMBOL vmlinux 0x2194f32b	snd_pcm_lib_readv
 EXPORT_SYMBOL vmlinux 0x21952877	swiotlb_unmap_sg
 EXPORT_SYMBOL vmlinux 0x219809a8	seq_release
