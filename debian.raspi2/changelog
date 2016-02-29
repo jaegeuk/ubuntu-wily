@@ -1,14 +1,16 @@
-linux-raspi2 (4.2.0-1026.33) UNRELEASED; urgency=low
+linux-raspi2 (4.2.0-1026.33) wily; urgency=low
 
   [ Brad Figg ]
 
+  * Release Tracking Bug
+    - LP: #1550761
   * rebased on Ubuntu-4.2.0-32.37
 
   [ Kamal Mostafa ]
 
   * Merged back Ubuntu-4.2.0-31.36
 
- -- Brad Figg <brad.figg@canonical.com>  Mon, 29 Feb 2016 08:21:52 -0800
+ -- Brad Figg <brad.figg@canonical.com>  Mon, 29 Feb 2016 08:27:22 -0800
 
 linux-raspi2 (4.2.0-1025.32) wily; urgency=low
 
