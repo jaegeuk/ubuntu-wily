@@ -342,6 +342,7 @@ bma180
 bmc150-accel
 bmc150_magn
 bmg160
+bmp085
 bmp085-i2c
 bmp085-spi
 bmp280
